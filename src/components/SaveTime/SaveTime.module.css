@@ -1,0 +1,66 @@
+.saveTimeSection {
+  background-color: #ffffff;
+  padding: 5.3rem 0;
+}
+
+.saveTimeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.saveTimeContainerTitle {
+  margin: 0 auto;
+  text-align: center;
+  color: #010103;
+}
+.saveTimeContainerTitle h3 {
+  font-size: 2.4rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+.saveTimeContainerTitle h2 {
+  font-size: 4.2rem;
+  font-family: "Poppins", sans-serif;
+  margin: 1.3rem 0 3rem 0;
+}
+.saveTimeContainerBoxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin-top: 3.7rem;
+  padding: 0 3rem;
+}
+@media (max-width: 1021px) {
+  .saveTimeContainerBoxes {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .saveTimeContainerBoxes {
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+  }
+}
+.saveTimeContainerBoxesBox {
+  text-align: center;
+  padding: 1rem 6rem;
+}
+@media (max-width: 500px) {
+  .saveTimeContainerBoxesBox {
+    padding: 1rem 1rem;
+  }
+}
+.saveTimeContainerBoxesBox img {
+  width: 17rem;
+  height: auto;
+}
+.saveTimeContainerBoxesBox h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+.saveTimeContainerBoxesBox p {
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  color: #706f7b;
+  line-height: 1.43;
+}

@@ -1,0 +1,64 @@
+.mobileStoreSection {
+  background-image: url("/src/assets/images/banners/bg02.png");
+  background-color: #f8f8f8;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 10rem 0;
+}
+@media (max-width: 700px) {
+  .mobileStoreSection {
+    background-image: none;
+  }
+}
+
+.mobileStoreText {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 55rem;
+  text-align: left;
+}
+@media (max-width: 700px) {
+  .mobileStoreText {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+.mobileStoreText h2 {
+  font-size: 4.2rem;
+  color: #010103;
+}
+.mobileStoreText p {
+  font-size: 1.6rem;
+  color: #706f7b;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+}
+.mobileStoreTextBtns {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+@media (max-width: 700px) {
+  .mobileStoreTextBtns {
+    justify-content: center;
+  }
+}
+@media (max-width: 550px) {
+  .mobileStoreTextBtns {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.mobileStoreTextBtns img {
+  width: 40%;
+  cursor: pointer;
+}
+@media (max-width: 550px) {
+  .mobileStoreTextBtns img {
+    width: 22rem;
+  }
+}
