@@ -56,7 +56,7 @@ const CarModels = () => {
                 <Link
                   className={classes.modelsDivBoxDescrNamePriceBtnA}
                   onClick={() => window.scrollTo(0, 0)}
-                  to="/"
+                  to="/car-shop"
                 >
                   <div className={classes.modelsDivBoxDescrNamePriceBtn}>
                     Buy Now
@@ -103,7 +103,7 @@ const CarModels = () => {
                 <Link
                   className={classes.modelsDivBoxDescrNamePriceBtnA}
                   onClick={() => window.scrollTo(0, 0)}
-                  to="/"
+                  to="/car-shop"
                 >
                   <div className={classes.modelsDivBoxDescrNamePriceBtn}>
                     Buy Now
@@ -150,7 +150,7 @@ const CarModels = () => {
                 <Link
                   className={classes.modelsDivBoxDescrNamePriceBtnA}
                   onClick={() => window.scrollTo(0, 0)}
-                  to="/"
+                  to="/car-shop"
                 >
                   <div className={classes.modelsDivBoxDescrNamePriceBtn}>
                     Buy Now
@@ -197,7 +197,7 @@ const CarModels = () => {
                 <Link
                   className={classes.modelsDivBoxDescrNamePriceBtnA}
                   onClick={() => window.scrollTo(0, 0)}
-                  to="/"
+                  to="/car-shop"
                 >
                   <div className={classes.modelsDivBoxDescrNamePriceBtn}>
                     Buy Now
@@ -244,7 +244,7 @@ const CarModels = () => {
                 <Link
                   className={classes.modelsDivBoxDescrNamePriceBtnA}
                   onClick={() => window.scrollTo(0, 0)}
-                  to="/"
+                  to="/car-shop"
                 >
                   <div className={classes.modelsDivBoxDescrNamePriceBtn}>
                     Buy Now
@@ -291,7 +291,7 @@ const CarModels = () => {
                 <Link
                   className={classes.modelsDivBoxDescrNamePriceBtnA}
                   onClick={() => window.scrollTo(0, 0)}
-                  to="/"
+                  to="/car-shop"
                 >
                   <div className={classes.modelsDivBoxDescrNamePriceBtn}>
                     Buy Now

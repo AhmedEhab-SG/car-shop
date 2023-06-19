@@ -6,21 +6,17 @@ import About from "./pages/About.page";
 import CarModels from "./pages/CarModels.page";
 import TestimonialsPage from "./pages/Testimonials.page";
 import Contact from "./pages/Contact.page";
-import { useRoutes } from "react-router-dom";
 
 const App = () => {
-  const element = <Home />;
-  const HomePath = () =>
-    useRoutes(["/", "car-shop/"].map((path) => ({ path, element })));
   return (
     <Fragment>
       <Navbar />
-      <HomePath />
       <Routes>
-        <Route path="about" element={<About />} />
-        <Route path="models" element={<CarModels />} />
-        <Route path="testimonials" element={<TestimonialsPage />} />
-        <Route path="contact" element={<Contact />} />
+        <Route index path="/car-shop" element={<Home />} />
+        <Route path="/car-shop/about" element={<About />} />
+        <Route path="/car-shop/models" element={<CarModels />} />
+        <Route path="/car-shop/testimonials" element={<TestimonialsPage />} />
+        <Route path="/car-shop/contact" element={<Contact />} />
       </Routes>
     </Fragment>
   );

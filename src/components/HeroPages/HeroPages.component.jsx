@@ -9,7 +9,7 @@ function HeroPages(props) {
         <div className={classes.heroPagesText}>
           <h3>{props.name}</h3>
           <p>
-            <Link to="/">Home</Link> / {props.name}
+            <Link to="/car-shop">Home</Link> / {props.name}
           </p>
         </div>
       </SectionContainer>

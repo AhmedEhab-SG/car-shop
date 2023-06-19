@@ -20,27 +20,27 @@ const Navbar = () => {
         </div>
         <ul className={classes.mobileNavbarLinks}>
           <li>
-            <Link onClick={openNav} to="/">
+            <Link onClick={openNav} to="/car-shop">
               Home
             </Link>
           </li>
           <li>
-            <Link onClick={openNav} to="/about">
+            <Link onClick={openNav} to="/car-shop/about">
               About
             </Link>
           </li>
           <li>
-            <Link onClick={openNav} to="/models">
+            <Link onClick={openNav} to="/car-shop/models">
               Models
             </Link>
           </li>
           <li>
-            <Link onClick={openNav} to="/testimonials">
+            <Link onClick={openNav} to="/car-shop/testimonials">
               Testimonials
             </Link>
           </li>
           <li>
-            <Link onClick={openNav} to="/contact">
+            <Link onClick={openNav} to="/car-shop/contact">
               Contact
             </Link>
           </li>
@@ -57,31 +57,31 @@ const Navbar = () => {
         </div>
         <ul className={classes.navbarLinks}>
           <li>
-            <Link className="homeLink" to="/">
+            <Link className="homeLink" to="/car-shop">
               Home
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="aboutLink" to="/about">
+            <Link className="aboutLink" to="/car-shop/about">
               About
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="modelsLink" to="/models">
+            <Link className="modelsLink" to="/car-shop/models">
               Vehicle Models
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="testiLink" to="/testimonials">
+            <Link className="testiLink" to="/car-shop/testimonials">
               Testimonials
             </Link>
           </li>
           <li>
             {" "}
-            <Link className="contactLink" to="/contact">
+            <Link className="contactLink" to="/car-shop/contact">
               Contact
             </Link>
           </li>

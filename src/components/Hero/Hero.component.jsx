@@ -55,7 +55,7 @@ const Hero = () => {
               <Link
                 onClick={bookBtn}
                 className={classes.heroContentTextBtnsBookRide}
-                to="/"
+                to="/car-shop"
               >
                 Buy a Car &nbsp; <FontAwesomeIcon icon={faCircleCheck} />
               </Link>
