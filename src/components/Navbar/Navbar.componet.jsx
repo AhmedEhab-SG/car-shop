@@ -51,7 +51,7 @@ const Navbar = () => {
 
       <div className={classes.navbar}>
         <div className={classes.navbarImg}>
-          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+          <Link to="/car-shop" onClick={() => window.scrollTo(0, 0)}>
             <img src={Logo} alt="logo-img" />
           </Link>
         </div>

@@ -36,19 +36,19 @@ const Footer = () => {
           <ul className={classes.footerContent2}>
             <li>Branches</li>
             <li>
-              <a href="#home">Cairo</a>
+              <a href="/car-shop">Cairo</a>
             </li>
             <li>
-              <a href="#home">Giza</a>
+              <a href="/car-shop">Giza</a>
             </li>
             <li>
-              <a href="#home">Alexandria</a>
+              <a href="/car-shop">Alexandria</a>
             </li>
             <li>
-              <a href="#home">Luxor</a>
+              <a href="/car-shop">Luxor</a>
             </li>
             <li>
-              <a href="#home">Sharm El-Sheikh</a>
+              <a href="/car-shop">Sharm El-Sheikh</a>
             </li>
           </ul>
 
