@@ -53,7 +53,7 @@ const Contact = () => {
               </label>
               <textarea placeholder="Write Here.."></textarea>
 
-              <button type="submit">
+              <button >
                 <FontAwesomeIcon icon={faEnvelopeOpenText} />
                 &nbsp; Send Message
               </button>
