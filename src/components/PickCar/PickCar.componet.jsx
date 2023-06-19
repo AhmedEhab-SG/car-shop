@@ -87,6 +87,16 @@ const PickCar = () => {
               >
                 VW Passat CC
               </button>
+              <button
+                className={`${coloringButton("btn7")}`}
+                id="btn7"
+                onClick={() => {
+                  setActive("SeventhCar");
+                  btnID("btn7");
+                }}
+              >
+                Peugeot RCZ
+              </button>
             </div>
 
             {active === "FirstCar" && <CarBox data={CAR_DATA} carID={0} />}
@@ -95,6 +105,7 @@ const PickCar = () => {
             {active === "FourthCar" && <CarBox data={CAR_DATA} carID={3} />}
             {active === "FifthCar" && <CarBox data={CAR_DATA} carID={4} />}
             {active === "SixthCar" && <CarBox data={CAR_DATA} carID={5} />}
+            {active === "SeventhCar" && <CarBox data={CAR_DATA} carID={6} />}
           </div>
         </div>
       </SectionContainer>

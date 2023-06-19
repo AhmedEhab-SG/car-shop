@@ -43,7 +43,7 @@ const carModel = [
     modelName: "2487 cc",
     doors: "4/5",
     modelType: "Auto",
-    modelLooks: "Petrol",
+    modelLooks: "Hybrid",
     modelImg: toyotaImg,
   },
   {
@@ -73,7 +73,7 @@ const carModel = [
     modelName: "1,598 cc",
     doors: "2/3",
     modelType: "Auto",
-    modelLooks: "Petrol",
+    modelLooks: "Hybrid",
     modelImg: PeugeotImg,
   },
 ];

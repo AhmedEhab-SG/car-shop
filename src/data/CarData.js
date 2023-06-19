@@ -4,6 +4,7 @@ import Toyota from "../assets/images/cars-big/toyotacamry.jpg";
 import Bmw320 from "../assets/images/cars-big/bmw320.jpg";
 import Benz from "../assets/images/cars-big/benz.jpg";
 import Passat from "../assets/images/cars-big/passatcc.jpg";
+import Peugeot from "../assets/images/cars-big/peugeot.png";
 
 export const CAR_DATA = [
   [
@@ -13,10 +14,10 @@ export const CAR_DATA = [
       img: Golf6,
       model: "Golf 6",
       mark: "Volkswagen",
-      year: "2008",
+      year: "2012",
       doors: "4/5",
       air: "Yes",
-      transmission: "Manual",
+      transmission: "Automatic",
       fuel: "Diesel",
     },
   ],
@@ -28,10 +29,10 @@ export const CAR_DATA = [
       model: "Audi",
       mark: "A1",
       year: "2012",
-      doors: "4/5",
+      doors: "2/3",
       air: "Yes",
-      transmission: "Manual",
-      fuel: "Gasoline",
+      transmission: "Automatic",
+      fuel: "Petrol",
     },
   ],
   [
@@ -56,9 +57,9 @@ export const CAR_DATA = [
       model: "320",
       mark: "BMW",
       year: "2012",
-      doors: "4/5",
+      doors: "2/3",
       air: "Yes",
-      transmission: "Manual",
+      transmission: "Automatic",
       fuel: "Diesel",
     },
   ],
@@ -72,7 +73,7 @@ export const CAR_DATA = [
       year: "2006",
       doors: "4/5",
       air: "Yes",
-      transmission: "Manual",
+      transmission: "Automatic",
       fuel: "Diesel",
     },
   ],
@@ -88,6 +89,20 @@ export const CAR_DATA = [
       air: "Yes",
       transmission: "Automatic",
       fuel: "Gasoline",
+    },
+  ],
+  [
+    {
+      name: "Peugeot RCZ",
+      price: "26,180",
+      img: Peugeot,
+      model: "RCZ",
+      mark: "Peugeot",
+      year: "2015",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Automatic",
+      fuel: "Hybrid",
     },
   ],
 ];
