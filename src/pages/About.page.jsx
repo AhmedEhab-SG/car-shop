@@ -10,7 +10,7 @@ import classes from "../styles/About.module.css";
 import BuyBanner from "../components/BuyBanner/BuyBanner.component";
 import SectionContainer from "../components/SectionContainer/SectionContainer.component";
 
-function About() {
+const About = () => {
   return (
     <Fragment>
       <section className="about-page">
@@ -64,6 +64,6 @@ function About() {
       <Footer />
     </Fragment>
   );
-}
+};
 
 export default About;

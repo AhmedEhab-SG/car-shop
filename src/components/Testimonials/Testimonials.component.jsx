@@ -14,6 +14,57 @@ import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import SectionContainer from "../SectionContainer/SectionContainer.component";
 
+const reviewArr = [
+  {
+    id: "0",
+    name: "Marwan Sayed",
+    location: "ِCairo",
+    review: `"I bought a car from this website and it was an amazing experience! The payment enquiry was easy and the price was in range "`,
+    img: testimonial1,
+  },
+  {
+    id: "1",
+    name: "Omar Zayed",
+    location: "Giza",
+    review: `"I got my car from my the nearst branch, It was in a great condition as it was market on the this website"`,
+    img: testimonial2,
+  },
+  {
+    id: "2",
+    name: "Muhammad Ali",
+    location: "Luxor",
+    review: `"I had an issue with the payment but the customer support team was every friendly and they solved my problem in no time"`,
+    img: testimonial3,
+  },
+  {
+    id: "3",
+    name: "Aisha",
+    location: "Alexandira",
+    review: `"The car was better than i imagined, Highly recommend this website you will find you dream car here!"`,
+    img: testimonial4,
+  },
+];
+
+const reviewElement = reviewArr.map((reviewItems) => {
+  return (
+    <SwiperSlide key={reviewItems.id} className={classes.allTestimonialsBox}>
+      <span className={classes.quotesIcon}>
+        <FontAwesomeIcon icon={faQuoteRight} />
+      </span>
+      <p>{reviewItems.review}</p>
+      <div className={classes.allTestimonialsBoxName}>
+        <div className={classes.allTestimonialsBoxNameProfile}>
+          <img src={reviewItems.img} alt="user_img" />
+          <span>
+            <h4>{reviewItems.name}</h4>
+            <p>{reviewItems.location}</p>
+          </span>
+        </div>
+      </div>
+    </SwiperSlide>
+  );
+});
+
 const Testimonials = () => {
   return (
     <section className={classes.testimonialsSection}>
@@ -35,84 +86,10 @@ const Testimonials = () => {
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
             autoplay={{ delay: "4000", disableOnInteraction: false }}
             className={classes.allTestimonials}
           >
-            <SwiperSlide className={classes.allTestimonialsBox}>
-              <span className={classes.quotesIcon}>
-                <FontAwesomeIcon icon={faQuoteRight} />
-              </span>
-              <p>
-                "I bought a car from this website and it was an amazing
-                experience! The payment enquiry was easy and the price was in
-                range "
-              </p>
-              <div className={classes.allTestimonialsBoxName}>
-                <div className={classes.allTestimonialsBoxNameProfile}>
-                  <img src={testimonial1} alt="user_img" />
-                  <span>
-                    <h4>Marwan Sayed</h4>
-                    <p>Cairo</p>
-                  </span>
-                </div>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide className={classes.allTestimonialsBox}>
-              <span className={classes.quotesIcon}>
-                <FontAwesomeIcon icon={faQuoteRight} />
-              </span>
-              <p>
-                "I got my car from my the nearst branch, It was in a great
-                condition as it was market on the this website"
-              </p>
-              <div className={classes.allTestimonialsBoxName}>
-                <div className={classes.allTestimonialsBoxNameProfile}>
-                  <img src={testimonial2} alt="user_img" />
-                  <span>
-                    <h4>Omar Zayed</h4>
-                    <p>Giza</p>
-                  </span>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={classes.allTestimonialsBox}>
-              <span className={classes.quotesIcon}>
-                <FontAwesomeIcon icon={faQuoteRight} />
-              </span>
-              <p>
-                "I had an issue with the payment but the customer support team
-                was every friendly and they solved my problem in no time"
-              </p>
-              <div className={classes.allTestimonialsBoxName}>
-                <div className={classes.allTestimonialsBoxNameProfile}>
-                  <img src={testimonial3} alt="user_img" />
-                  <span>
-                    <h4>Muhammad Ali</h4>
-                    <p>Luxor</p>
-                  </span>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={classes.allTestimonialsBox}>
-              <span className={classes.quotesIcon}>
-                <FontAwesomeIcon icon={faQuoteRight} />
-              </span>
-              <p>
-                "The car was better than i imagined, Highly recommend this
-                website you will find you dream car here!"
-              </p>
-              <div className={classes.allTestimonialsBoxName}>
-                <div className={classes.allTestimonialsBoxNameProfile}>
-                  <img src={testimonial4} alt="user_img" />
-                  <span>
-                    <h4>Aisha</h4>
-                    <p>Alexandira</p>
-                  </span>
-                </div>
-              </div>
-            </SwiperSlide>
+            {reviewElement}
           </Swiper>
         </div>
       </SectionContainer>

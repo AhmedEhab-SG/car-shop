@@ -1,6 +1,6 @@
 import { useState } from "react";
 import CarBox from "./CarBox/CarBox.componet";
-import { CAR_DATA } from "../../data/CarData";
+import { CAR_DATA } from "../../data/carData";
 import classes from "./PickCar.module.css";
 import SectionContainer from "../SectionContainer/SectionContainer.component";
 

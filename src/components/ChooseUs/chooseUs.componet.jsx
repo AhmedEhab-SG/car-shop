@@ -6,6 +6,41 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classes from "./chooseUs.module.css";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import SectionContainer from "../SectionContainer/SectionContainer.component";
+
+const elements = [
+  {
+    img: Box1,
+    title: "Travel Anywhere Anytime",
+    parag:
+      "Take your top quality car around the cities with our top-notch vehicles for your cross-country adventures.",
+  },
+  {
+    img: Box2,
+    title: "Pricing Is The Key",
+    parag:
+      "Get everything you need in one convenient, transparent price with our all-inclusive pricing policy.",
+  },
+  {
+    img: Box3,
+    title: "Our Insurnce Service",
+    parag:
+      "with our Insrucnce service you are always safe, we got your back whenever maintenance you need, no hidden charges policy.",
+  },
+];
+
+const elementsMap = elements.map((elementsItems) => {
+  return (
+    <div key={elementsItems.title} className={classes.textContainerRightBox}>
+      {" "}
+      <img src={elementsItems.img} alt="coin-img" />
+      <div className={classes.textContainerRightBoxText}>
+        <h4>{elementsItems.title}</h4>
+        <p>{elementsItems.parag}</p>
+      </div>
+    </div>
+  );
+});
+
 const ChooseUs = () => {
   return (
     <section className={classes.chooseSection}>
@@ -32,41 +67,7 @@ const ChooseUs = () => {
                 <FontAwesomeIcon icon={faAngleRight} />
               </a>
             </div>
-            <div className={classes.textContainerRight}>
-              <div className={classes.textContainerRightBox}>
-                <img src={Box1} alt="car-img" />
-                <div className={classes.textContainerRightBoxText}>
-                  <h4>Travel Anywhere Anytime</h4>
-                  <p>
-                    Take your top quality car around the cities with our
-                    top-notch vehicles for your cross-country adventures.
-                  </p>
-                </div>
-              </div>
-              <div className={classes.textContainerRightBox}>
-                {" "}
-                <img src={Box2} alt="coin-img" />
-                <div className={classes.textContainerRightBoxText}>
-                  <h4>Pricing Is The Key</h4>
-                  <p>
-                    Get everything you need in one convenient, transparent price
-                    with our all-inclusive pricing policy.
-                  </p>
-                </div>
-              </div>
-              <div className={classes.textContainerRightBox}>
-                {" "}
-                <img src={Box3} alt="coin-img" />
-                <div className={classes.textContainerRightBoxText}>
-                  <h4> Our Insurnce Service</h4>
-                  <p>
-                    with our Insrucnce service you are always safe, we got your
-                    back whenever maintenance you need, no hidden charges
-                    policy.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <div className={classes.textContainerRight}>{elementsMap} </div>
           </div>
         </div>
       </SectionContainer>

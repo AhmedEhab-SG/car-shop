@@ -11,6 +11,45 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const navArr = [
+    {
+      id: "Home",
+      link: "/car-shop",
+    },
+    {
+      id: "About",
+      link: "/car-shop/about",
+    },
+    {
+      id: "Models",
+      link: "/car-shop/models",
+    },
+    {
+      id: "Testimonials",
+      link: "/car-shop/testimonials",
+    },
+    {
+      id: "Contact",
+      link: "/car-shop/contact",
+    },
+  ];
+  const navElementMobile = navArr.map((navItems) => {
+    return (
+      <li key={navItems.id}>
+        <Link onClick={openNav} to={navItems.link}>
+          {navItems.id}
+        </Link>
+      </li>
+    );
+  });
+  const navElement = navArr.map((navItems) => {
+    return (
+      <li key={navItems.id}>
+        {" "}
+        <Link to={navItems.link}>{navItems.id}</Link>
+      </li>
+    );
+  });
   return (
     <nav>
       {/* mobile */}
@@ -18,33 +57,7 @@ const Navbar = () => {
         <div onClick={openNav} className={classes.mobileNavbarClose}>
           <FontAwesomeIcon icon={faXmark} />
         </div>
-        <ul className={classes.mobileNavbarLinks}>
-          <li>
-            <Link onClick={openNav} to="/car-shop">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link onClick={openNav} to="/car-shop/about">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link onClick={openNav} to="/car-shop/models">
-              Models
-            </Link>
-          </li>
-          <li>
-            <Link onClick={openNav} to="/car-shop/testimonials">
-              Testimonials
-            </Link>
-          </li>
-          <li>
-            <Link onClick={openNav} to="/car-shop/contact">
-              Contact
-            </Link>
-          </li>
-        </ul>
+        <ul className={classes.mobileNavbarLinks}>{navElementMobile}</ul>
       </div>
 
       {/* desktop */}
@@ -55,37 +68,7 @@ const Navbar = () => {
             <img src={Logo} alt="logo-img" />
           </Link>
         </div>
-        <ul className={classes.navbarLinks}>
-          <li>
-            <Link className="homeLink" to="/car-shop">
-              Home
-            </Link>
-          </li>
-          <li>
-            {" "}
-            <Link className="aboutLink" to="/car-shop/about">
-              About
-            </Link>
-          </li>
-          <li>
-            {" "}
-            <Link className="modelsLink" to="/car-shop/models">
-              Vehicle Models
-            </Link>
-          </li>
-          <li>
-            {" "}
-            <Link className="testiLink" to="/car-shop/testimonials">
-              Testimonials
-            </Link>
-          </li>
-          <li>
-            {" "}
-            <Link className="contactLink" to="/car-shop/contact">
-              Contact
-            </Link>
-          </li>
-        </ul>
+        <ul className={classes.navbarLinks}>{navElement}</ul>
         <div className={classes.navbarButtons}>
           <Link className={classes.navbarButtonsSignIn} to="/car-shop">
             Sign In
