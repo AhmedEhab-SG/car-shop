@@ -55,7 +55,7 @@ const Footer = () => {
           <ul className={classes.footerContent2}>
             <li>Working Hours</li>
             <li>Mon - Fri: 9:00AM - 10:00PM</li>
-            <li>Sat: 9:00AM - 10:00PM</li>
+            <li>Sat: 9:00AM - 5:00PM</li>
             <li>Sun: Closed</li>
           </ul>
 
