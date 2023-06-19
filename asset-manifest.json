@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/car-shop/static/css/main.c0860cf8.css",
+    "main.css": "/car-shop/static/css/main.70d180d5.css",
     "main.js": "/car-shop/static/js/main.51ec8787.js",
     "static/media/main-mercedes-bg.png": "/car-shop/static/media/main-mercedes-bg.3daaf8aaea56205b5749.png",
     "static/media/peugeot.png": "/car-shop/static/media/peugeot.9a1bdc804cd067f1d099.png",
@@ -37,11 +37,11 @@
     "static/media/googleapp.svg": "/car-shop/static/media/googleapp.e6493904327fe3f9b89c7c75a4f3ae74.svg",
     "static/media/appstore.svg": "/car-shop/static/media/appstore.35481c6295b0744dfcc00d35874fbdd8.svg",
     "index.html": "/car-shop/index.html",
-    "main.c0860cf8.css.map": "/car-shop/static/css/main.c0860cf8.css.map",
+    "main.70d180d5.css.map": "/car-shop/static/css/main.70d180d5.css.map",
     "main.51ec8787.js.map": "/car-shop/static/js/main.51ec8787.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0860cf8.css",
+    "static/css/main.70d180d5.css",
     "static/js/main.51ec8787.js"
   ]
 }
