@@ -24,15 +24,15 @@ const Contact = () => {
               research, development as well as a learning specialist. Over 15
               years of experience.
             </p>
-            <a href="/">
+            <a href="/car-shop">
               <FontAwesomeIcon icon={faPhone} />
               &nbsp; (+20) 01234567891
             </a>
-            <a href="/">
+            <a href="/car-shop">
               <FontAwesomeIcon icon={faEnvelope} />
               &nbsp; carshop@gmail.com
             </a>
-            <a href="/">
+            <a href="/car-shop">
               <FontAwesomeIcon icon={faLocationDot} /> &nbsp; Cairo, Egypt
             </a>
           </div>

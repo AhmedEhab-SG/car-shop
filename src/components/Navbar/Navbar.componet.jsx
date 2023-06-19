@@ -87,10 +87,10 @@ const Navbar = () => {
           </li>
         </ul>
         <div className={classes.navbarButtons}>
-          <Link className={classes.navbarButtonsSignIn} to="/">
+          <Link className={classes.navbarButtonsSignIn} to="/car-shop">
             Sign In
           </Link>
-          <Link className={classes.navbarButtonsRegister} to="/">
+          <Link className={classes.navbarButtonsRegister} to="/car-shop">
             Register
           </Link>
         </div>

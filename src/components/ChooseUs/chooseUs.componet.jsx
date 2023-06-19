@@ -27,7 +27,7 @@ const ChooseUs = () => {
                 deals are designed to give you the ultimate price for finest
                 Cars, so don't miss out on your chance to save big.
               </p>
-              <a href="#home">
+              <a href="/car-shop#home">
                 Find Details &nbsp;
                 <FontAwesomeIcon icon={faAngleRight} />
               </a>
