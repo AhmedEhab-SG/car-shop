@@ -84,7 +84,8 @@
   width: 5rem;
 }
 .aboutMainTextIconsBox img {
-  width: 7rem;
+  width: fit-content;
+  height: 4rem;
 }
 .aboutMainTextIconsBox span {
   display: flex;

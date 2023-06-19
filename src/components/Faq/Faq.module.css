@@ -95,7 +95,7 @@
 }
 
 .activeQuestion {
-  background-color: #ff4d30;
+  background-color: #656af8;
   color: white;
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+  box-shadow: 0 10px 15px 0 rgba(48, 131, 255, 0.35);
 }

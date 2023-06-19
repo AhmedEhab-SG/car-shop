@@ -59,7 +59,7 @@ const Hero = () => {
               >
                 Buy a Car &nbsp; <FontAwesomeIcon icon={faCircleCheck} />
               </Link>
-              <Link className={classes.heroContentTextBtnsLearnMore} to="/">
+              <Link className={classes.heroContentTextBtnsLearnMore} to="/car-shop/about">
                 Learn More &nbsp; <FontAwesomeIcon icon={faAngleRight} />
               </Link>
             </div>

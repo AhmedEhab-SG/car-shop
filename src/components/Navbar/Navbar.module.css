@@ -36,7 +36,7 @@
   transition: all 0.3s;
 }
 .navbarLinks a:hover {
-  color: #ff4d30;
+  color: #656af8;
 }
 @media (max-width: 1000px) {
   .navbarLinks {
@@ -62,19 +62,19 @@
   transition: all 0.3s;
 }
 .navbarButtonsSignin:hover {
-  color: #ff4d30;
+  color: #656af8;
 }
 .navbarButtonsRegister {
-  background-color: #ff4d30;
+  background-color: #656af8;
   color: white;
   padding: 1.5rem 3rem;
   border-radius: 3px;
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+  box-shadow: 0 10px 15px 0 rgba(48, 131, 255, 0.35);
   transition: all 0.3s;
 }
 .navbarButtonsRegister:hover {
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.5);
-  background-color: #fa4226;
+  box-shadow: 0 10px 15px 0 rgba(48, 131, 255, 0.5);
+  background-color: #2e32ad;
 }
 .navbarButtons a {
   text-decoration: none;
@@ -87,7 +87,7 @@
   transition: all 0.3s;
 }
 .mobileHamb:hover {
-  color: #ff4d30;
+  color: #656af8;
 }
 @media (max-width: 1000px) {
   .mobileHamb {
@@ -118,7 +118,7 @@
   transition: all 0.3s;
 }
 .mobileNavbarClose:hover {
-  color: #ff4d30;
+  color: #656af8;
 }
 .mobileNavbarLinks {
   display: flex;
@@ -135,7 +135,7 @@
   transition: all 0.3s;
 }
 .mobileNavbarLinks li a:hover {
-  color: #ff4d30;
+  color: #656af8;
 }
 
 .openNav {

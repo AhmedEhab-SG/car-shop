@@ -42,7 +42,7 @@
   gap: 2rem;
 }
 .buyContentBox .boxForm b {
-  color: #ff4d30;
+  color: #656af8;
 }
 @media (max-width: 1000px) {
   .buyContentBox .boxForm {
@@ -64,7 +64,7 @@
   margin-bottom: 1.2rem;
 }
 .buyContentBox .boxFormCarType label i {
-  color: #ff4d30;
+  color: #656af8;
 }
 .buyContentBox .boxFormCarType select {
   font-size: 1.5rem;
@@ -93,7 +93,7 @@
   margin-bottom: 1.2rem;
 }
 .buyContentBox .boxFormCarTime label i {
-  color: #ff4d30;
+  color: #656af8;
 }
 .buyContentBox .boxFormCarTime ::-webkit-datetime-edit {
   padding: 1.3rem 1.3rem;
@@ -112,13 +112,13 @@
   font-size: 1.8rem;
   font-weight: 500;
   color: white;
-  background-color: #ff4d30;
-  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
+  background-color: #656af8;
+  box-shadow: 0 10px 15px rgba(48, 131, 255, 0.35);
   cursor: pointer;
   transition: all 0.3s;
 }
 .buyContentBox button:hover {
-  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.55);
+  box-shadow: 0 10px 15px rgba(48, 131, 255, 0.55);
 }
 
 .errorMessage {
@@ -208,7 +208,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  background-color: #ff4d30;
+  background-color: #656af8;
   color: white;
   align-items: center;
 }
@@ -230,12 +230,12 @@
   flex-direction: column;
   gap: 1.5rem;
   padding: 2rem 3rem;
-  background-color: #ffeae6;
+  background-color: #e6f2ff;
 }
 .buyingModalMessage h4 {
   font-size: 1.9rem;
   font-weight: 700;
-  color: #ff4d30;
+  color: #656af8;
 }
 .buyingModalMessage h4 i {
   font-size: 2.5rem;
@@ -266,7 +266,7 @@
 }
 .buyingModalCarInfoDates h5 {
   font-size: 1.8rem;
-  color: #ff4d30;
+  color: #656af8;
 }
 .buyingModalCarInfoDates span {
   display: flex;
@@ -309,7 +309,7 @@
 }
 .buyingModalCarInfoModel h5 {
   font-size: 1.8rem;
-  color: #ff4d30;
+  color: #656af8;
 }
 .buyingModalCarInfoModel h5 span {
   color: #010103;
@@ -327,7 +327,7 @@
 .buyingModalPersonInfo h4 {
   font-size: 1.8rem;
   text-transform: uppercase;
-  color: #ff4d30;
+  color: #656af8;
   margin-bottom: 2rem;
 }
 
@@ -385,7 +385,7 @@
 }
 .infoForm2Col span label b,
 .infoForm1Col span label b {
-  color: #ff4d30;
+  color: #656af8;
 }
 .infoForm2Col span input,
 .infoForm1Col span input {
@@ -413,16 +413,19 @@
   font-size: 2.4rem;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: #656af8;
   border: 1px solid yellow;
   padding: 1.2rem 2rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 .reserveButton button:hover {
-  background-color: #fe3516;
+  background-color: #2e32ad;
 }
 
+.buyBtn:hover{
+  background-color: #2e32ad !important; 
+}
 .datesDiv {
   display: flex;
   flex-direction: column;

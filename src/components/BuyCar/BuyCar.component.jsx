@@ -5,6 +5,7 @@ import CarToyota from "../../assets/images/cars-big/toyotacamry.jpg";
 import CarBmw from "../../assets/images/cars-big/bmw320.jpg";
 import CarMercedes from "../../assets/images/cars-big/benz.jpg";
 import CarPassat from "../../assets/images/cars-big/passatcc.jpg";
+import CarRcz from "../../assets/images/cars-big/peugeot.png";
 import classes from "./BuyCar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -137,6 +138,9 @@ const BuyCar = () => {
     case "VW Passat CC":
       imgUrl = CarPassat;
       break;
+    case "Peugeit RCZ":
+      imgUrl = CarRcz;
+      break;
     default:
       imgUrl = "";
   }
@@ -190,6 +194,7 @@ const BuyCar = () => {
                       BMW 320 ModernLine
                     </option>
                     <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
+                    <option value="Peugeit RCZ">Peugeit RCZ</option>
                     <option value="VW Passat CC">VW Passat CC</option>
                   </select>
                 </div>
@@ -236,7 +241,11 @@ const BuyCar = () => {
                   ></input>
                 </div>
 
-                <button onClick={openModal} type="submit">
+                <button
+                  className={classes.buyBtn}
+                  onClick={openModal}
+                  type="submit"
+                >
                   Buy Now
                 </button>
               </form>

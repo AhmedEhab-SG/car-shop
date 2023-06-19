@@ -4,8 +4,18 @@ import toyotaImg from "../assets/images/cars-big/toyota-box.png";
 import bmwImg from "../assets/images/cars-big/bmw-box.png";
 import benzImg from "../assets/images/cars-big/benz-box.png";
 import passatImg from "../assets/images/cars-big/passat-box.png";
-
+import PeugeotImg from "../assets/images/cars-big/peugeot-rcz.jpg";
 const carModel = [
+  {
+    model: "VW Passat",
+    price: "$29,980",
+    discount: "10% Off",
+    modelName: "1968 cc",
+    doors: "4/5",
+    modelType: "Auto",
+    modelLooks: "Petrol",
+    modelImg: passatImg,
+  },
   {
     model: "Audi A1",
     price: "$23,410",
@@ -57,14 +67,14 @@ const carModel = [
     modelImg: benzImg,
   },
   {
-    model: "VW Passat",
-    price: "$29,980",
+    model: "Peugeot RCZ",
+    price: "$26,180",
     discount: "10% Off",
-    modelName: "1968 cc",
-    doors: "4/5",
+    modelName: "1,598 cc",
+    doors: "2/3",
     modelType: "Auto",
     modelLooks: "Petrol",
-    modelImg: passatImg,
+    modelImg: PeugeotImg,
   },
 ];
 
