@@ -1,11 +1,12 @@
 import SelectCar from "../../assets/images/saveTime/icon1.png";
 import Contact from "../../assets/images/saveTime/icon2.png";
 import Drive from "../../assets/images/saveTime/icon3.png";
-import classes from "./SaveTime.module.css"
+import SectionContainer from "../SectionContainer/SectionContainer.component";
+import classes from "./SaveTime.module.css";
 const SaveTime = () => {
   return (
     <section className={classes.saveTimeSection}>
-      <div className="container">
+      <SectionContainer>
         <div className={classes.saveTimeContainer}>
           <div className={classes.saveTimeContainerTitle}>
             <h3>save time with your new Car</h3>
@@ -26,8 +27,8 @@ const SaveTime = () => {
               <img src={Contact} alt="icon_img" />
               <h3>Customer services</h3>
               <p>
-                Our knowledgeable and friendly customer services are always ready 24/7 to
-                help with any questions or concerns
+                Our knowledgeable and friendly customer services are always
+                ready 24/7 to help with any questions or concerns
               </p>
             </div>
 
@@ -41,7 +42,7 @@ const SaveTime = () => {
             </div>
           </div>
         </div>
-      </div>
+      </SectionContainer>
     </section>
   );
 };
