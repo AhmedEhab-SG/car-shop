@@ -2,13 +2,9 @@
 
 # Car Shop
 
-<h3>About Project:</h3>
+## About Project: A Real Live Demo Interactive Website for selling cars.
 
-#### A Real Live Demo Interactive Website for selling cars.
-
-<hr>
-
-<h3>Made with:</h3>
+### Made with:
 
 » React JS <br>
 » CSS3 <br>
