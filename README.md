@@ -2,7 +2,7 @@
 
 # Car Shop
 
-<h2>About Project:</h2>
+<h3>About Project:</h3>
 
 » A Real Live Demo Ineteractive Website for selling cars.
 
