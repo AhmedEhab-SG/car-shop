@@ -4,7 +4,9 @@
 
 <h3>About Project:</h3>
 
-#### A Real Live Demo Ineteractive Website for selling cars.
+#### A Real Live Demo Interactive Website for selling cars.
+
+<hr>
 
 <h3>Made with:</h3>
 
