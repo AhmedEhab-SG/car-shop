@@ -1,6 +1,8 @@
 # Car Shop
 
-## An Interactive Website made with react.JS
+<h2>About project:</h2>
+
+## A Real Live Demo Ineteractive Website for selling cars.
 
 <h3>Made with:</h3>
 
