@@ -1,8 +1,10 @@
 <div align='center'><img style="width:16%" src='./public/logo.png'/></div>
 
-# Car Shop
+<h1 align="center"> Car Shop </h1>
 
-## About Project: A Real Live Demo Interactive Website for selling cars.
+### About Project:
+
+#### An interactive car shop demo is a digital platform that allows users to explore and interact with various car models, utilizing react routes, module and hooks.
 
 ### Made with:
 
