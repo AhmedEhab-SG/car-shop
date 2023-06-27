@@ -1,8 +1,10 @@
+<div align='center'><img style="width:16%" src='./public/logo.png'/></div>
+
 # Car Shop
 
-<h2>About project:</h2>
+<h2>About Project:</h2>
 
-## A Real Live Demo Ineteractive Website for selling cars.
+» A Real Live Demo Ineteractive Website for selling cars.
 
 <h3>Made with:</h3>
 
